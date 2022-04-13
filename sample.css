@@ -1,0 +1,68 @@
+* {
+    font-size: 16px;
+}
+
+.template {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 100px;
+    grid-template: auto/repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.window {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loc {
+    background-color: rgb(189, 157, 154);
+    overflow: hidden;
+    width: 92%;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.loc_name {
+    text-align: left;
+    color: #000;
+    margin-top: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* home page */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5pt rgba(151, 144, 144, 0.48);
+    border-style: groove;
+  }
+
+  
+  
